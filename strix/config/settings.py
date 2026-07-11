@@ -14,6 +14,8 @@ _BASE_CONFIG = SettingsConfigDict(
     case_sensitive=False,
     populate_by_name=True,
     extra="ignore",
+    env_file=".env",
+    env_file_encoding="utf-8",
 )
 
 
